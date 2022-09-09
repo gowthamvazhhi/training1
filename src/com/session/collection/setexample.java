@@ -1,8 +1,8 @@
 package com.session.collection;
 
+import java.util.Set;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.Set;
 
 public class setexample {
 
@@ -13,6 +13,7 @@ public class setexample {
 		set1.add("Gowtham");
 		set1.add("Sachin");
 		set1.add("kohli");
+		set1.add("Gowtham");
 		set1.add("Ashwin");
 		set1.add("Bhumrah");
 		set1.add("dhoni");

@@ -10,7 +10,8 @@ public class treemap {
 		TreeMap<Integer, String> map = new TreeMap<Integer, String>();
 		map.put(1, "Gowtham");
 		map.put(3, "Kohli");
-		map.put(2, "sachin");
+		map.put(4, "sachin");
+		map.put(2, "Gowtham");
 		System.out.println("Before invoking remove() method");
 		for (Map.Entry m : map.entrySet()) {
 			System.out.println(m.getKey() + " " + m.getValue());
