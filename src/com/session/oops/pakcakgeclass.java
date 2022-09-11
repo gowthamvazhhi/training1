@@ -1,7 +1,11 @@
 package com.session.oops;
 
-class addi {
+class add {
 
+	add(){
+		
+	}
+	
 	int x = 200;
 	int y = 100;
 
@@ -9,8 +13,14 @@ class addi {
 
 		int c = x + y;
 
+		System.out.println("The value of c is " + c);
 		return c;
 
+	}
+
+	  String dispaly() {
+		System.out.println("inside add class");
+		return "Gowtham";
 	}
 
 }
@@ -73,15 +83,13 @@ public class pakcakgeclass {
 
 	public static void main(String[] args) {
 
-		addi c = new addi();// object creation
+		      add       c              = new add();// object creation
 		// classname referencevaribale = new classname()
-
-		System.out.println("The sum is" + c.addii());
-	
-	       
-
 		sub x = new sub();
 		System.out.println("The sub is " + x.subt());
+		System.out.println(c.dispaly());
+
+		System.out.println("The sum is" + c.addii());
 
 		mul y = new mul();
 		System.out.println("The mult is " + y.mult());

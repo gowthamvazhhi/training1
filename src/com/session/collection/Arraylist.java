@@ -1,10 +1,10 @@
 package com.session.collection;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.Collections;
+
 import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.Map;
 
 public class Arraylist {
 
@@ -14,9 +14,6 @@ public class Arraylist {
 		list.add("Vijay");
 		list.add("Ravi");
 		list.add("Ajay");
-		
-		
-		System.out.println(list.size());
 
 		// Traversing list through Iterator
 		Iterator itr = list.iterator();
@@ -35,9 +32,19 @@ public class Arraylist {
 			System.out.println(itr1.next());
 
 		}
-		Map<String, Integer > hp = new HashMap<>();
-	    hp.put("abc", 1);
-		System.out.println(hp.size());
 
+		System.out.println("========After sort=====");
+		Collections.sort(list);
+		Iterator itr2 = list.iterator();
+		while (itr2.hasNext()) {
+			System.out.println(itr2.next());
+		}
+		System.out.println("===============");
+		Collections.sort(ll);
+		Iterator itr3 = ll.iterator();
+		while (itr3.hasNext()) {
+			System.out.println(itr3.next());
+
+		}
 	}
 }
