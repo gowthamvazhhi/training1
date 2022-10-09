@@ -8,6 +8,7 @@ class bank {
 		balance = balance + 10 + 10;
 		return balance;
 	}
+
 }
 
 public class encapsulationexample {
@@ -16,6 +17,7 @@ public class encapsulationexample {
 
 		bank b = new bank();
 
-		b.getBalance();
+		System.out.println(b.getBalance());
+
 	}
 }

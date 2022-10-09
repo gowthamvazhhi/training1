@@ -12,8 +12,8 @@ public class example2 {
 			}
 
 			else {
-				System.out.println("Person is eligible to vote!!");
-				throw new IndexOutOfBoundsException();
+
+				throw new ArithmeticException();
 			}
 		} catch (gowthamexception e) {
 			System.out.println(e.getMessage());
@@ -21,8 +21,7 @@ public class example2 {
 	}
 
 	public static void main(String args[]) {
-		validate(12);
-		System.out.println("rest of the code...");
+		validate(17);
 
 	}
 }

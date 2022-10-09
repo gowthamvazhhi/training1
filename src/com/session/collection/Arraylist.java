@@ -46,5 +46,13 @@ public class Arraylist {
 			System.out.println(itr3.next());
 
 		}
+		for (String x : ll) {
+			System.out.println("");
+
+		}
+		System.out.println("lamda");
+		ll.forEach(n -> System.out.println(n));
+
+		
 	}
 }

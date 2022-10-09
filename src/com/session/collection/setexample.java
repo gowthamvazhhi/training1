@@ -17,7 +17,6 @@ public class setexample {
 		set1.add("Ashwin");
 		set1.add("Bhumrah");
 		set1.add("dhoni");
-		set1.add(null);
 
 		Iterator it = set1.iterator();
 		while (it.hasNext()) {

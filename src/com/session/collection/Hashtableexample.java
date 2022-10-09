@@ -13,6 +13,8 @@ public class Hashtableexample {
 
 		// Print mappings to the console
 		System.out.println("Mappings of ht1 : " + ht1);
+		
+
 	}
 
 }

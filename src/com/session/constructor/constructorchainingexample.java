@@ -22,7 +22,7 @@ class Prototype extends Demo {
 	}
 
 //derived class parameterized constructor  
-	Prototype(String str1, String str2) {
+	Prototype(String str1, String str2) { 
 		super();
 		System.out.println("Derived class parameterized constructor called");
 	}
