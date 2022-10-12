@@ -1,11 +1,12 @@
 package com.session.collection;
 
 import java.util.Iterator;
+import java.util.Set;
 import java.util.TreeSet;
 
 public class Treeset {
 	public static void main(String args[]) {
-		TreeSet<String> al = new TreeSet<String>();
+		Set<String> al = new TreeSet<String>();
 		al.add("Gowtham");
 		al.add("Sachin");
 		al.add("Kohli");

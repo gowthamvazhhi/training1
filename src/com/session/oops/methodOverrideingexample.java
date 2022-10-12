@@ -13,7 +13,7 @@ class c extends A {
 
 	public int add(int a, int b, int c) {
 
-		return 11;
+		return  12 ;
 	}
 }
 
